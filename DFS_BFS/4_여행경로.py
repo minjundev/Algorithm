@@ -21,3 +21,4 @@ def bfs(tickets) :
                 queue.append((removed_togoList,visited+[togo[1]]))
 
     return sorted(answerList)[0]
+   
